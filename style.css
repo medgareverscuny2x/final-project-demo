@@ -6,6 +6,7 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #b9d6f2;
 }
 
 .container {
@@ -40,8 +41,6 @@ body {
 }
 
 .hero {
-  background-color: #b9d6f2;
-  /* border-bottom: 2px solid #003559; */
   position: relative;
   text-align: center;
   color: white;
@@ -62,16 +61,21 @@ body {
 }
 
 .blurb {
-  padding: 0.5em;
+  padding: 1em;
   background-color: #b9d6f2;
 }
 
 .blurb p {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
 }
 
 .footer {
   background-color: #003559;
   color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
