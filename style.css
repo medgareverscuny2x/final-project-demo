@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab:wght@300&family=Russo+One&display=swap");
 /* B9D6F2 */
 /* 061A40 */
 /* 0353A4 */
@@ -5,7 +6,8 @@
 /* 003559 */
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Russo One", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   background-color: #b9d6f2;
 }
 
@@ -79,7 +81,7 @@ body {
 }
 
 .blurb p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
   font-size: 1.25rem;
   padding: 0.5rem;
 }
@@ -108,7 +110,7 @@ body {
 }
 
 .blog-content p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
   padding: 0.5rem 0.25rem;
   line-height: normal;
@@ -145,7 +147,7 @@ body {
   text-align: center;
 }
 .pokemon-info p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
 }
 
 .pokemon-info p:first-of-type:first-letter {
@@ -162,7 +164,7 @@ ul.pokemon-stats {
 }
 
 ul.pokemon-stats li {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Major Mono Display", "Courier New", Courier, monospace;
   line-height: 200%;
   text-align: center;
 }
