@@ -133,3 +133,21 @@ body {
   padding-top: 0.5rem;
   color: #777;
 }
+
+.pokemon-info {
+  padding: 0.2rem 2rem 1.5rem;
+}
+
+.pokemon-info h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.25rem;
+  text-align: center;
+}
+.pokemon-info p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.pokemon-info p:first-of-type:first-letter {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
