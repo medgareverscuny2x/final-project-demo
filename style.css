@@ -127,6 +127,7 @@ body {
   background-color: white;
   padding: 1rem 0.25rem;
   border: 1px solid gray;
+  border-radius: 1.5rem;
 }
 
 .pokemon-image .image-caption {
@@ -150,4 +151,18 @@ body {
 .pokemon-info p:first-of-type:first-letter {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+ul.pokemon-stats {
+  border: 0.1rem solid #061a40;
+  border-radius: 1rem;
+  margin: 1.5rem 2rem 0.75rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+ul.pokemon-stats li {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 200%;
+  text-align: center;
 }
