@@ -28,10 +28,15 @@ body {
 
 .navigation {
   width: 100%;
-  margin: 0 5px;
-  padding-bottom: 10px;
+  /* margin: 0 5px; */
+  padding: 10px 0;
   display: flex;
   justify-content: space-around;
+  background-color: #0353a4;
+}
+
+.navigation .icon {
+  display: none;
 }
 
 .navigation li {
