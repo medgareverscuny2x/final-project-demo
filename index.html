@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
     <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>MEC Demo Project</h1>
-        <div class="navigation">
+        <div class="navigation" id="topnav">
           <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="pokemon.html">Pokemon</a></li>
           </ul>
+          <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
+        <h1>MEC Demo Project</h1>
       </div>
       <div class="content">
         <div class="hero">
