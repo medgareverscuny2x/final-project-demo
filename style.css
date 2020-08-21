@@ -168,3 +168,7 @@ ul.pokemon-stats li {
   line-height: 200%;
   text-align: center;
 }
+
+.hidden {
+  display: none;
+}
